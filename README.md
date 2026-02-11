@@ -50,18 +50,18 @@ Client (Web / Mobile)
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
 # Create your .env from the example
 cp .env.example .env
 # Edit .env with your values (at minimum set BACKEND_URL)
 
 # Start in development (with hot reload)
-pnpm dev
+npm run dev
 
 # Build for production
-pnpm build
-pnpm start
+npm run build
+npm start
 ```
 
 ## Environment Variables
